@@ -37,6 +37,10 @@
 
 			include "design/user_add.php";
 
+		} elseif($_GET['action'] == 'edit') {
+
+			include "design/user_edit.php";
+
 		}
 
 		 ?>
